@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e0643f-ea8a-42d1-be60-acfa9c535b64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_DependsOnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_Driver_Config_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/resources/drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/FirstClass.java" afterDir="false" />
@@ -31,9 +36,13 @@
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/tests/Day02_TitleVerification.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/tests/Day02_URLVerification.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/Driver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/day24_parameterizing_feature_files.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/first_feature_file.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
@@ -47,6 +56,9 @@
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -162,7 +174,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -172,7 +184,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2KeIfCE3TMNWTrY4axPMqN1AWJp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -185,8 +199,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day19_TestNGAnnotations">
-    <configuration name="Day19_TestNGAnnotations" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day20_Driver_Config_Test">
+    <configuration name="Day19_TestNGAnnotations.test6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -196,24 +210,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="techproed.tests.Day19_TestNGAnnotations" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day19_TestNGAnnotations.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day19_TestNGAnnotations" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -221,7 +218,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day19_TestNGAnnotations.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day20_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -230,8 +227,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day19_TestNGAnnotations" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_DependsOnMethods" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day20_Driver_Config_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_Driver_Config_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day20_Driver_Config_Test.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_Driver_Config_Test" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day20_SoftAssertion.softAssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_SoftAssertion" />
+      <option name="METHOD_NAME" value="softAssertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -241,9 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day19_TestNGAnnotations" />
-        <item itemvalue="TestNG.Day19_TestNGAnnotations.test2" />
-        <item itemvalue="TestNG.Day19_TestNGAnnotations.test1" />
+        <item itemvalue="TestNG.Day20_Driver_Config_Test" />
+        <item itemvalue="TestNG.Day20_Driver_Config_Test.firstTest" />
+        <item itemvalue="TestNG.Day20_SoftAssertion.softAssertTest" />
+        <item itemvalue="TestNG.Day19_TestNGAnnotations.test6" />
+        <item itemvalue="TestNG.Day20_DependsOnMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -279,22 +330,26 @@
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674329429479" />
-    <state width="2508" height="516" key="GridCell.Tab.0.bottom" timestamp="1674334434532">
+    <state width="2508" height="340" key="GridCell.Tab.0.bottom" timestamp="1674415035242">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2508" height="516" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674334434532" />
-    <state width="2508" height="516" key="GridCell.Tab.0.center" timestamp="1674334434530">
+    <state width="2508" height="414" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948284" />
+    <state width="2508" height="340" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035242" />
+    <state width="2508" height="340" key="GridCell.Tab.0.center" timestamp="1674415035240">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2508" height="516" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674334434530" />
-    <state width="2508" height="516" key="GridCell.Tab.0.left" timestamp="1674334434529">
+    <state width="2508" height="414" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
+    <state width="2508" height="340" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035240" />
+    <state width="2508" height="340" key="GridCell.Tab.0.left" timestamp="1674415035237">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2508" height="516" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674334434529" />
-    <state width="2508" height="516" key="GridCell.Tab.0.right" timestamp="1674334434531">
+    <state width="2508" height="414" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948282" />
+    <state width="2508" height="340" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035237" />
+    <state width="2508" height="340" key="GridCell.Tab.0.right" timestamp="1674415035241">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2508" height="516" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674334434531" />
+    <state width="2508" height="414" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
+    <state width="2508" height="340" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035241" />
     <state x="664" y="280" key="SettingsEditor" timestamp="1674332483567">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
