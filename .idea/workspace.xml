@@ -23,19 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e0643f-ea8a-42d1-be60-acfa9c535b64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_DependsOnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_Driver_Config_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_SoftAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourceDashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourcePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_OpenSourceLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/resources/drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/FirstClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/tests/Day01_BasicNavigations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/tests/Day02_TitleVerification.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/tests/Day02_URLVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/my-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/runners/Runner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
@@ -44,6 +53,17 @@
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/day24_parameterizing_feature_files.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/first_feature_file.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/features/day24_parameterizing_feature_files.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/features/first_feature_file.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/pages/GooglePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/stepdefinitions/GoogleStepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/Driver$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/ReusableMethods$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/ConfigReader.java" afterDir="false" />
@@ -56,9 +76,10 @@
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -192,49 +213,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day20_Driver_Config_Test">
-    <configuration name="Day19_TestNGAnnotations.test6" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day19_TestNGAnnotations" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day20_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_DependsOnMethods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Day21_TechproLoginTest.loginTest">
     <configuration name="Day20_Driver_Config_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
@@ -288,13 +274,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day21_OpenSourceLogin.openSourceLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day21_OpenSourceLogin" />
+      <option name="METHOD_NAME" value="openSourceLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day21_TechproLoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day21_TechproLoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day21_TechproLoginTest.loginTest" />
+        <item itemvalue="TestNG.Day21_OpenSourceLogin.openSourceLogin" />
         <item itemvalue="TestNG.Day20_Driver_Config_Test" />
         <item itemvalue="TestNG.Day20_Driver_Config_Test.firstTest" />
         <item itemvalue="TestNG.Day20_SoftAssertion.softAssertTest" />
-        <item itemvalue="TestNG.Day19_TestNGAnnotations.test6" />
-        <item itemvalue="TestNG.Day20_DependsOnMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -330,30 +352,30 @@
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674329429479" />
-    <state width="2508" height="340" key="GridCell.Tab.0.bottom" timestamp="1674415035242">
+    <state width="1921" height="50" key="GridCell.Tab.0.bottom" timestamp="1674763386975">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state width="2508" height="414" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948284" />
-    <state width="2508" height="340" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035242" />
-    <state width="2508" height="340" key="GridCell.Tab.0.center" timestamp="1674415035240">
+    <state width="1921" height="50" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386975" />
+    <state width="1921" height="50" key="GridCell.Tab.0.center" timestamp="1674763386974">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state width="2508" height="414" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
-    <state width="2508" height="340" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035240" />
-    <state width="2508" height="340" key="GridCell.Tab.0.left" timestamp="1674415035237">
+    <state width="1921" height="50" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386974" />
+    <state width="1921" height="50" key="GridCell.Tab.0.left" timestamp="1674763386973">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state width="2508" height="414" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948282" />
-    <state width="2508" height="340" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035237" />
-    <state width="2508" height="340" key="GridCell.Tab.0.right" timestamp="1674415035241">
+    <state width="1921" height="50" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386973" />
+    <state width="1921" height="50" key="GridCell.Tab.0.right" timestamp="1674763386974">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state width="2508" height="414" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
-    <state width="2508" height="340" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674415035241" />
-    <state x="664" y="280" key="SettingsEditor" timestamp="1674332483567">
+    <state width="1921" height="50" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386974" />
+    <state x="664" y="280" key="SettingsEditor" timestamp="1674765741552">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state x="664" y="280" key="SettingsEditor/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674332483567" />
+    <state x="664" y="280" key="SettingsEditor/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674765741552" />
     <state x="861" y="342" width="838" height="1032" key="search.everywhere.popup" timestamp="1674332458966">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
