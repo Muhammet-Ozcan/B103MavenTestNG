@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e0643f-ea8a-42d1-be60-acfa9c535b64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourceDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourcePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_OpenSourceLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/resources/drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/FirstClass.java" afterDir="false" />
@@ -78,8 +76,8 @@
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/tests/Day21_TechproLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/tests/Day21_TechproLoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -220,60 +218,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day21_TechproLoginTest.loginTest">
-    <configuration name="Day20_Driver_Config_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_Driver_Config_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day20_Driver_Config_Test.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_Driver_Config_Test" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day20_SoftAssertion.softAssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day20_SoftAssertion" />
-      <option name="METHOD_NAME" value="softAssertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Day22_NegativeLoginTest.US100208_Negative_Login">
     <configuration name="Day21_OpenSourceLogin.openSourceLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
@@ -310,13 +255,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day22_NegativeLoginTest.US100208_Negative_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.smoketests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.smoketests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.Day22_NegativeLoginTest" />
+      <option name="METHOD_NAME" value="US100208_Negative_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day22_PositiveLoginTest.US100201_Admin_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.smoketests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.smoketests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.Day22_PositiveLoginTest" />
+      <option name="METHOD_NAME" value="US100201_Admin_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.NormalTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day22_NegativeLoginTest.US100208_Negative_Login" />
+        <item itemvalue="TestNG.Day22_PositiveLoginTest.US100201_Admin_Login" />
         <item itemvalue="TestNG.Day21_TechproLoginTest.loginTest" />
+        <item itemvalue="TestNG.NormalTest.test1" />
         <item itemvalue="TestNG.Day21_OpenSourceLogin.openSourceLogin" />
-        <item itemvalue="TestNG.Day20_Driver_Config_Test" />
-        <item itemvalue="TestNG.Day20_Driver_Config_Test.firstTest" />
-        <item itemvalue="TestNG.Day20_SoftAssertion.softAssertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -344,34 +343,39 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="647" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1674329438762">
+    <state x="766" y="647" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1674848636266">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state x="766" y="647" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674329438762" />
-    <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1674329429479">
+    <state x="766" y="647" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674848636266" />
+    <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1674848626917">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674329429479" />
-    <state width="1921" height="50" key="GridCell.Tab.0.bottom" timestamp="1674763386975">
-      <screen x="78" y="25" width="2482" height="1415" />
+    <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674848626917" />
+    <state width="2505" height="3" key="GridCell.Tab.0.bottom" timestamp="1674850990733">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948284" />
-    <state width="1921" height="50" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386975" />
-    <state width="1921" height="50" key="GridCell.Tab.0.center" timestamp="1674763386974">
-      <screen x="78" y="25" width="2482" height="1415" />
+    <state width="2505" height="3" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674850990733" />
+    <state width="2426" height="178" key="GridCell.Tab.0.bottom/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524711" />
+    <state width="2505" height="3" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674850639951" />
+    <state width="2505" height="3" key="GridCell.Tab.0.center" timestamp="1674850990732">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
-    <state width="1921" height="50" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386974" />
-    <state width="1921" height="50" key="GridCell.Tab.0.left" timestamp="1674763386973">
-      <screen x="78" y="25" width="2482" height="1415" />
+    <state width="2505" height="3" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674850990732" />
+    <state width="2426" height="178" key="GridCell.Tab.0.center/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524710" />
+    <state width="2505" height="3" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674850639931" />
+    <state width="2505" height="3" key="GridCell.Tab.0.left" timestamp="1674850990731">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948282" />
-    <state width="1921" height="50" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386973" />
-    <state width="1921" height="50" key="GridCell.Tab.0.right" timestamp="1674763386974">
-      <screen x="78" y="25" width="2482" height="1415" />
+    <state width="2505" height="3" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674850990731" />
+    <state width="2505" height="3" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674850639918" />
+    <state width="2426" height="178" key="GridCell.Tab.0.left/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524710" />
+    <state width="2426" height="95" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674844032040" />
+    <state width="2505" height="3" key="GridCell.Tab.0.right" timestamp="1674850990732">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674414948283" />
-    <state width="1921" height="50" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674763386974" />
+    <state width="2505" height="3" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674850990732" />
+    <state width="2426" height="178" key="GridCell.Tab.0.right/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524711" />
+    <state width="2505" height="3" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674850639940" />
     <state x="664" y="280" key="SettingsEditor" timestamp="1674765741552">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
