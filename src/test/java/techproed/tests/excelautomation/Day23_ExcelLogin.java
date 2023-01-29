@@ -1,5 +1,6 @@
 package techproed.tests.excelautomation;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import techproed.pages.BlueRentalHomePage;
 import techproed.pages.BlueRentalLoginPage;
@@ -8,6 +9,7 @@ import techproed.utilities.Driver;
 import techproed.utilities.ExcelUtils;
 import techproed.utilities.ReusableMethods;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -58,7 +60,7 @@ public class Day23_ExcelLogin {
     }
 
     @Test
-    public void customerLogin(){
+    public void customerLogin() throws IOException {
         String path="./src/test/java/resources/mysmoketestdata.xlsx";
 //        ./ ONCEKI TUM DOSYALARI ICER. RELATIVE PATH.
         String sayfa = "customer_info";
@@ -79,7 +81,16 @@ public class Day23_ExcelLogin {
             ReusableMethods.waitFor(1);
             blueRentalLoginPage.loginButton.click();
             ReusableMethods.waitFor(1);
+//            giris isleminin basarili oldugunu gostermek icin assertion
+            ReusableMethods.verifyElementDisplayed(blueRentalHomePage.userID);
+            ReusableMethods.waitFor(1);
+//            Her bir girisden sonra ekran goruntusu aldik
+            ReusableMethods.getScreenshot("EkranGoruntusu");
         }
+    }
+    @AfterMethod
+    public void tearDown(){
+        Driver.closeDriver();
     }
 }
 
