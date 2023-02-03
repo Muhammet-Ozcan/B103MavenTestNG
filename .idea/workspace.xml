@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e0643f-ea8a-42d1-be60-acfa9c535b64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day24_ExcelLogin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirliclasslar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirligruplar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day25_DataProviderTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/DataProviderUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/resources/drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SeleniumNewProject/src/test/java/FirstClass.java" afterDir="false" />
@@ -75,8 +76,28 @@
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/tests/excelautomation/Day23_ExcelLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/tests/excelautomation/Day23_ExcelLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020343.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020354.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020608.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020620.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129020645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129023013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129023026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129023039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129023052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129121932.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129121957.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129122023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129122049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129123729.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129123738.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129123748.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20230129123758.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -224,8 +245,8 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day24_DataProviderTest3.dataProviderLoginTest">
-    <configuration name="Day24_DataProviderTest1.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/techproed/IdeaProjects/B103TestNGProject/belirligruplar.xml">
+    <configuration name="Day25_DataProviderTest4.customerDataTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -234,8 +255,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest1" />
-      <option name="METHOD_NAME" value="aramaTesti" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day25_DataProviderTest4" />
+      <option name="METHOD_NAME" value="customerDataTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -243,7 +264,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day24_DataProviderTest1.googleAramasi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day25_DataProviderTest4.musteriVerileriTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -252,8 +273,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest1" />
-      <option name="METHOD_NAME" value="googleAramasi" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day25_DataProviderTest4" />
+      <option name="METHOD_NAME" value="musteriVerileriTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -261,54 +282,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day24_DataProviderTest2.dataProviderLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/techproed/IdeaProjects/B103TestNGProject/belirliclasslar.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest2" />
-      <option name="METHOD_NAME" value="dataProviderLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliclasslar.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day24_DataProviderTest2.dataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/techproed/IdeaProjects/B103TestNGProject/belirligruplar.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest2" />
-      <option name="METHOD_NAME" value="dataProviderTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirligruplar.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day24_DataProviderTest3.dataProviderLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/techproed/IdeaProjects/B103TestNGProject/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest3" />
-      <option name="METHOD_NAME" value="dataProviderLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -317,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day24_DataProviderTest3.dataProviderLoginTest" />
-        <item itemvalue="TestNG.Day24_DataProviderTest2.dataProviderLoginTest" />
-        <item itemvalue="TestNG.Day24_DataProviderTest2.dataProviderTest" />
-        <item itemvalue="TestNG.Day24_DataProviderTest1.aramaTesti" />
-        <item itemvalue="TestNG.Day24_DataProviderTest1.googleAramasi" />
+        <item itemvalue="TestNG./Users/techproed/IdeaProjects/B103TestNGProject/belirligruplar.xml" />
+        <item itemvalue="TestNG./Users/techproed/IdeaProjects/B103TestNGProject/belirliclasslar.xml" />
+        <item itemvalue="TestNG./Users/techproed/IdeaProjects/B103TestNGProject/smoketest.xml" />
+        <item itemvalue="TestNG.Day25_DataProviderTest4.musteriVerileriTest" />
+        <item itemvalue="TestNG.Day25_DataProviderTest4.customerDataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,38 +354,39 @@
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
     <state x="998" y="596" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674848626917" />
-    <state width="2427" height="3" key="GridCell.Tab.0.bottom" timestamp="1675022756461">
+    <state width="2505" height="3" key="GridCell.Tab.0.bottom" timestamp="1675370085951">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2505" height="275" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674852740621" />
-    <state width="2426" height="214" key="GridCell.Tab.0.bottom/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675002951471" />
+    <state width="2505" height="551" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1675369369522" />
+    <state width="2297" height="372" key="GridCell.Tab.0.bottom/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675274851377" />
     <state width="2426" height="178" key="GridCell.Tab.0.bottom/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524711" />
-    <state width="2427" height="3" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675022756461" />
-    <state width="2427" height="3" key="GridCell.Tab.0.center" timestamp="1675022756460">
+    <state width="2505" height="3" key="GridCell.Tab.0.bottom/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675370085951" />
+    <state width="2505" height="3" key="GridCell.Tab.0.center" timestamp="1675370085950">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2505" height="275" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674852740620" />
-    <state width="2426" height="214" key="GridCell.Tab.0.center/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675002951471" />
+    <state width="2505" height="551" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1675369369522" />
+    <state width="2297" height="372" key="GridCell.Tab.0.center/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675274851376" />
     <state width="2426" height="178" key="GridCell.Tab.0.center/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524710" />
-    <state width="2427" height="3" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675022756460" />
-    <state width="2427" height="3" key="GridCell.Tab.0.left" timestamp="1675022756459">
+    <state width="2505" height="3" key="GridCell.Tab.0.center/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675370085950" />
+    <state width="2505" height="3" key="GridCell.Tab.0.left" timestamp="1675370085950">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2505" height="275" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674852740620" />
+    <state width="2505" height="551" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1675369369520" />
     <state width="2505" height="3" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674850639918" />
-    <state width="2426" height="214" key="GridCell.Tab.0.left/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675002951471" />
+    <state width="2297" height="372" key="GridCell.Tab.0.left/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675274851375" />
     <state width="2426" height="178" key="GridCell.Tab.0.left/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524710" />
-    <state width="2427" height="3" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675022756459" />
-    <state width="2427" height="3" key="GridCell.Tab.0.right" timestamp="1675022756460">
+    <state width="2505" height="3" key="GridCell.Tab.0.left/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675370085950" />
+    <state width="2505" height="3" key="GridCell.Tab.0.right" timestamp="1675370085950">
       <screen x="78" y="25" width="2482" height="1415" />
     </state>
-    <state width="2505" height="275" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1674852740621" />
-    <state width="2426" height="214" key="GridCell.Tab.0.right/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675002951471" />
+    <state width="2505" height="551" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1675369369522" />
+    <state width="2297" height="372" key="GridCell.Tab.0.right/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675274851376" />
     <state width="2426" height="178" key="GridCell.Tab.0.right/77.25.2483.1415/2560.25.1920.1055@77.25.2483.1415" timestamp="1674843524711" />
-    <state width="2427" height="3" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675022756460" />
-    <state x="664" y="280" key="SettingsEditor" timestamp="1674765741552">
-      <screen x="78" y="25" width="2482" height="1415" />
+    <state width="2505" height="3" key="GridCell.Tab.0.right/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1675370085950" />
+    <state x="662" y="280" key="SettingsEditor" timestamp="1675274834630">
+      <screen x="75" y="25" width="2485" height="1415" />
     </state>
+    <state x="662" y="280" key="SettingsEditor/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1675274834630" />
     <state x="664" y="280" key="SettingsEditor/78.25.2482.1415/2560.25.1920.1055@78.25.2482.1415" timestamp="1674765741552" />
     <state x="861" y="342" width="838" height="1032" key="search.everywhere.popup" timestamp="1674332458966">
       <screen x="78" y="25" width="2482" height="1415" />
